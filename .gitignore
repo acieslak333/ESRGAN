@@ -2,3 +2,6 @@ ckpts/
 generated_images/
 venv/
 data/
+
+__pycache__/
+.idea/
