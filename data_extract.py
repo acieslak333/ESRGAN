@@ -49,8 +49,8 @@ def save_nii(filepath: str, outpath: str):
 
 
 if __name__ == "__main__":
-    rootdir = r"F:\Piotrek\mri_data"
-    results_dir = r"F:\Piotrek\mri_results"
+    rootdir = r"F:\Piotrek\mri_dataset\mri_data"
+    results_dir = r"F:\Piotrek\mri_dataset\mri_results"
     number_gen = num_gen()
 
     Path(results_dir).mkdir(exist_ok=True, parents=True)
@@ -69,9 +69,5 @@ if __name__ == "__main__":
                 else:
                     continue
             except Exception as e:
-                print("Ups...", e)
-            
-            
-
-            
+                print("Ups...", e)   
         
